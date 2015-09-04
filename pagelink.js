@@ -19,7 +19,7 @@
           e.preventDefault();
           a=e.target.page1.value;
           Session.set('vala',a);
-          Router.go('Page2');
+  alert("hiii first time");        Router.go('Page2');
           }
      });
      Template.Page2.events ({
