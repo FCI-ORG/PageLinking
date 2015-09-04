@@ -5,6 +5,7 @@
     });
     Template.Page2.helpers({
       valb:function(){
+        alert("hi Anj Test");
         return Session.get('valb');
       }
     });
